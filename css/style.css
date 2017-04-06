@@ -1,0 +1,259 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+nav {
+  z-index: 1000;
+}
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* angle_div ............................................................... */
+
+.angle_div {
+	position:relative;
+}
+.angle_div01 {
+	color:#79DEF0;
+	background-color:#efefef;
+}
+.angle_div02 {
+  color:#79DEF0;
+	background-color:#e5e5e5;
+}
+.angle_div03 {
+	color:#79DEF0;
+	background-color:#313131;
+}
+.angle_div01:before {
+	position:absolute;
+	top:-100px;
+	left:0;
+	content:"";
+	width:100%;
+	height:200px;
+	background-color:#efefef;
+	-ms-transform:skewY(-2deg);
+	-webkit-transform:skewY(-2deg);
+	transform:skewY(-2deg);
+	z-index:100;
+}
+.angle_div01:after {
+	position:absolute;
+	bottom:-100px;
+	left:0;
+	content:"";
+	width:100%;
+	height:200px;
+	background-color:#efefef;
+	-ms-transform:skewY(-2deg);
+	-webkit-transform:skewY(-2deg);
+	transform:skewY(-2deg);
+	z-index:100;
+}
+.angle_div02:before {
+	position:absolute;
+	bottom:-100px;
+	left:0;
+	content:"";
+	width:100%;
+	height:200px;
+	background-color:#e5e5e5;
+	-ms-transform:skewY(2deg);
+	-webkit-transform:skewY(2deg);
+	transform:skewY(2deg);
+	z-index:100;
+}
+.angle_div02:after {
+	position:absolute;
+	top:-100px;
+	left:0;
+	content:"";
+	width:100%;
+	height:200px;
+	background-color:#e5e5e5;
+	-ms-transform:skewY(2deg);
+	-webkit-transform:skewY(2deg);
+	transform:skewY(2deg);
+	z-index:100;
+}
+.angle_div03:before {
+	position:absolute;
+	top:-100px;
+	left:0;
+	content:"";
+	width:100%;
+	height:200px;
+	background-color:#313131;
+	-ms-transform:skewY(-2deg);
+	-webkit-transform:skewY(-2deg);
+	transform:skewY(-2deg);
+	z-index:100;
+}
+.angle_div03:after {
+	position:absolute;
+	bottom:-100px;
+	left:0;
+	content:"";
+	width:100%;
+	height:200px;
+	background-color:#313131;
+	-ms-transform:skewY(-2deg);
+	-webkit-transform:skewY(-2deg);
+	transform:skewY(-2deg);
+	z-index:100;
+}
+
+.angle_div .container {
+	position:relative;
+	z-index:200;
+}
+/*----------------------------*/
+.przesun {
+	padding-top: 25px;
+	background-color: #27A0B6;
+}
+.poczatek {
+padding-top: 20px;
+height: 900px;
+}
+h5 {color: #9e9e9e;}
+h4 {color: #ff9c43;}
+h1 {color: #616161;}
+
+.para {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+	}
+.bg-01 {
+	background-color: #313131;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #ff9c43;
+	color: #ff9c43;
+}
+
+.button1:hover {
+    background-color: #ff9c43;
+    color: white;
+}
+nav.nav-center ul {
+    text-align: center;
+	letter-spacing: 5px;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+nav li a:hover,a:link, a:visited, a:active {
+    color: #ff9c43 !important;
+}
+ /* label color */
+   .input-field label {
+     color: #fff;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {color: #ff9c43;}
+   .input-field input[type=email]:focus + label {color: #ff9c43;}
+   /* label underline focus color */
+   .input-field input[type=text]:focus {border-bottom: 1px solid #ff9c43;
+   box-shadow: 0 1px 0 0 #ff9c43;}
+   .input-field input[type=email]:focus {border-bottom: 1px solid #ff9c43;
+   box-shadow: 0 1px 0 0 #ff9c43;}
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #ff9c43;
+     box-shadow: 0 1px 0 0 #ff9c43;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #ff9c43;
+     box-shadow: 0 1px 0 0 #ff9c43;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+
+    .textarea:focus {border-bottom: 1px solid #ff9c43;
+   box-shadow: 0 1px 0 0 #ff9c43;}
+   .textarea:focus {border-bottom: 1px solid #ff9c43;
+   box-shadow: 0 1px 0 0 #ff9c43;}
+
+   .pomarancz {color: #ff9c43 !important;}
+   .uslugi-text {color: #424242 !important;}
